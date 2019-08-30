@@ -1,0 +1,17 @@
+extends layout
+
+block content
+<<<<<<< HEAD
+  h1 Find your Train
+=======
+  h1 Find your train!
+>>>>>>> b79fa917d88310725989fdf3a8784df2ca7056c2
+  p Select your train below to see its current schedule.
+  #wrapper
+    #trainList
+      h2 Trains
+      #trains.d-flex.flex-row
+    #trainInfo
+      strong  <span id='trainName'></span>
+      #trainSchedule
+        strong Select a train to view its current schedule.
